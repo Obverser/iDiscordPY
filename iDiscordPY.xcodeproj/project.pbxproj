@@ -13,6 +13,8 @@
 		C030AD38269F9E7200DEFCA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C030AD28269F9E7000DEFCA5 /* ContentView.swift */; };
 		C030AD39269F9E7200DEFCA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C030AD29269F9E7200DEFCA5 /* Assets.xcassets */; };
 		C030AD3A269F9E7200DEFCA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C030AD29269F9E7200DEFCA5 /* Assets.xcassets */; };
+		C08E868726A314A10002C9A6 /* Python-iOS in Frameworks */ = {isa = PBXBuildFile; productRef = C08E868626A314A10002C9A6 /* Python-iOS */; };
+		C08E868A26A3157A0002C9A6 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = C08E868926A3157A0002C9A6 /* PythonKit */; };
 		C08FD0FE26A1F18600EC7D0A /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = C08FD0FD26A1F18600EC7D0A /* PythonKit */; };
 		C08FD10026A1F18A00EC7D0A /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = C08FD0FF26A1F18A00EC7D0A /* PythonKit */; };
 		C08FD10426A1F1B600EC7D0A /* Python-iOS in Frameworks */ = {isa = PBXBuildFile; productRef = C08FD10326A1F1B600EC7D0A /* Python-iOS */; };
@@ -46,8 +48,6 @@
 		C030AD29269F9E7200DEFCA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C030AD2E269F9E7200DEFCA5 /* iDiscordPY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDiscordPY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C030AD34269F9E7200DEFCA5 /* iDiscordPY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDiscordPY.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C08FD0F826A1F08900EC7D0A /* Python-iOS-kivy-ios */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Python-iOS-kivy-ios"; path = "../Python-iOS-kivy-ios"; sourceTree = "<group>"; };
-		C08FD0FC26A1F17F00EC7D0A /* PythonKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PythonKit; path = ../PythonKit; sourceTree = "<group>"; };
 		C08FD10C26A1F9B500EC7D0A /* iDiscordPY.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iDiscordPY.entitlements; sourceTree = "<group>"; };
 		C0DB21F026A209B800FB2831 /* discord */ = {isa = PBXFileReference; lastKnownFileType = folder; path = discord; sourceTree = "<group>"; };
 		C0DB21F326A20CC400FB2831 /* aiohttp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = aiohttp; sourceTree = "<group>"; };
@@ -68,7 +68,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C08FD10426A1F1B600EC7D0A /* Python-iOS in Frameworks */,
+				C08E868726A314A10002C9A6 /* Python-iOS in Frameworks */,
 				C08FD0FE26A1F18600EC7D0A /* PythonKit in Frameworks */,
+				C08E868A26A3157A0002C9A6 /* PythonKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,8 +127,6 @@
 		C08FD0DD26A1E8C000EC7D0A /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				C08FD0F826A1F08900EC7D0A /* Python-iOS-kivy-ios */,
-				C08FD0FC26A1F17F00EC7D0A /* PythonKit */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -167,6 +167,8 @@
 			packageProductDependencies = (
 				C08FD0FD26A1F18600EC7D0A /* PythonKit */,
 				C08FD10326A1F1B600EC7D0A /* Python-iOS */,
+				C08E868626A314A10002C9A6 /* Python-iOS */,
+				C08E868926A3157A0002C9A6 /* PythonKit */,
 			);
 			productName = "iDiscordPY (iOS)";
 			productReference = C030AD2E269F9E7200DEFCA5 /* iDiscordPY.app */;
@@ -220,6 +222,8 @@
 			);
 			mainGroup = C030AD21269F9E7000DEFCA5;
 			packageReferences = (
+				C08E868526A314A10002C9A6 /* XCRemoteSwiftPackageReference "Python-iOS" */,
+				C08E868826A3157A0002C9A6 /* XCRemoteSwiftPackageReference "PythonKit" */,
 			);
 			productRefGroup = C030AD2F269F9E7200DEFCA5 /* Products */;
 			projectDirPath = "";
@@ -560,7 +564,36 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		C08E868526A314A10002C9A6 /* XCRemoteSwiftPackageReference "Python-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Obverser/Python-iOS";
+			requirement = {
+				branch = "kivy-ios";
+				kind = branch;
+			};
+		};
+		C08E868826A3157A0002C9A6 /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Obverser/PythonKit";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
+		C08E868626A314A10002C9A6 /* Python-iOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C08E868526A314A10002C9A6 /* XCRemoteSwiftPackageReference "Python-iOS" */;
+			productName = "Python-iOS";
+		};
+		C08E868926A3157A0002C9A6 /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C08E868826A3157A0002C9A6 /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
+		};
 		C08FD0FD26A1F18600EC7D0A /* PythonKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PythonKit;
