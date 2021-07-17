@@ -13,6 +13,31 @@
 		C030AD38269F9E7200DEFCA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C030AD28269F9E7000DEFCA5 /* ContentView.swift */; };
 		C030AD39269F9E7200DEFCA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C030AD29269F9E7200DEFCA5 /* Assets.xcassets */; };
 		C030AD3A269F9E7200DEFCA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C030AD29269F9E7200DEFCA5 /* Assets.xcassets */; };
+		C08FD0FE26A1F18600EC7D0A /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = C08FD0FD26A1F18600EC7D0A /* PythonKit */; };
+		C08FD10026A1F18A00EC7D0A /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = C08FD0FF26A1F18A00EC7D0A /* PythonKit */; };
+		C08FD10426A1F1B600EC7D0A /* Python-iOS in Frameworks */ = {isa = PBXBuildFile; productRef = C08FD10326A1F1B600EC7D0A /* Python-iOS */; };
+		C0DB21F126A209B800FB2831 /* discord in Resources */ = {isa = PBXBuildFile; fileRef = C0DB21F026A209B800FB2831 /* discord */; };
+		C0DB21F226A209B800FB2831 /* discord in Resources */ = {isa = PBXBuildFile; fileRef = C0DB21F026A209B800FB2831 /* discord */; };
+		C0DB21F426A20CC400FB2831 /* aiohttp in Resources */ = {isa = PBXBuildFile; fileRef = C0DB21F326A20CC400FB2831 /* aiohttp */; };
+		C0DB21F526A20CC400FB2831 /* aiohttp in Resources */ = {isa = PBXBuildFile; fileRef = C0DB21F326A20CC400FB2831 /* aiohttp */; };
+		C0DB21F826A20D2E00FB2831 /* multidict in Resources */ = {isa = PBXBuildFile; fileRef = C0DB21F726A20D2E00FB2831 /* multidict */; };
+		C0DB21F926A20D2E00FB2831 /* multidict in Resources */ = {isa = PBXBuildFile; fileRef = C0DB21F726A20D2E00FB2831 /* multidict */; };
+		C0DB21FB26A20DA400FB2831 /* typing_extensions.py in Resources */ = {isa = PBXBuildFile; fileRef = C0DB21FA26A20DA400FB2831 /* typing_extensions.py */; };
+		C0DB21FC26A20DA400FB2831 /* typing_extensions.py in Resources */ = {isa = PBXBuildFile; fileRef = C0DB21FA26A20DA400FB2831 /* typing_extensions.py */; };
+		C0DB21FE26A20DD400FB2831 /* yarl in Resources */ = {isa = PBXBuildFile; fileRef = C0DB21FD26A20DD400FB2831 /* yarl */; };
+		C0DB21FF26A20DD400FB2831 /* yarl in Resources */ = {isa = PBXBuildFile; fileRef = C0DB21FD26A20DD400FB2831 /* yarl */; };
+		C0DB220126A20E0200FB2831 /* idna in Resources */ = {isa = PBXBuildFile; fileRef = C0DB220026A20E0200FB2831 /* idna */; };
+		C0DB220226A20E0200FB2831 /* idna in Resources */ = {isa = PBXBuildFile; fileRef = C0DB220026A20E0200FB2831 /* idna */; };
+		C0DB220426A20E2900FB2831 /* async_timeout in Resources */ = {isa = PBXBuildFile; fileRef = C0DB220326A20E2900FB2831 /* async_timeout */; };
+		C0DB220526A20E2900FB2831 /* async_timeout in Resources */ = {isa = PBXBuildFile; fileRef = C0DB220326A20E2900FB2831 /* async_timeout */; };
+		C0DB220726A20EED00FB2831 /* chardet in Resources */ = {isa = PBXBuildFile; fileRef = C0DB220626A20EED00FB2831 /* chardet */; };
+		C0DB220826A20EED00FB2831 /* chardet in Resources */ = {isa = PBXBuildFile; fileRef = C0DB220626A20EED00FB2831 /* chardet */; };
+		C0DB220A26A20F1B00FB2831 /* aiosignal in Resources */ = {isa = PBXBuildFile; fileRef = C0DB220926A20F1B00FB2831 /* aiosignal */; };
+		C0DB220B26A20F1B00FB2831 /* aiosignal in Resources */ = {isa = PBXBuildFile; fileRef = C0DB220926A20F1B00FB2831 /* aiosignal */; };
+		C0DB220D26A20F4700FB2831 /* frozenlist in Resources */ = {isa = PBXBuildFile; fileRef = C0DB220C26A20F4700FB2831 /* frozenlist */; };
+		C0DB220E26A20F4700FB2831 /* frozenlist in Resources */ = {isa = PBXBuildFile; fileRef = C0DB220C26A20F4700FB2831 /* frozenlist */; };
+		C0DB221026A2364900FB2831 /* GenerateAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DB220F26A2364900FB2831 /* GenerateAction.swift */; };
+		C0DB221126A2364900FB2831 /* GenerateAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DB220F26A2364900FB2831 /* GenerateAction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +46,20 @@
 		C030AD29269F9E7200DEFCA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C030AD2E269F9E7200DEFCA5 /* iDiscordPY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDiscordPY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C030AD34269F9E7200DEFCA5 /* iDiscordPY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDiscordPY.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C08FD0F826A1F08900EC7D0A /* Python-iOS-kivy-ios */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Python-iOS-kivy-ios"; path = "../Python-iOS-kivy-ios"; sourceTree = "<group>"; };
+		C08FD0FC26A1F17F00EC7D0A /* PythonKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PythonKit; path = ../PythonKit; sourceTree = "<group>"; };
+		C08FD10C26A1F9B500EC7D0A /* iDiscordPY.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iDiscordPY.entitlements; sourceTree = "<group>"; };
+		C0DB21F026A209B800FB2831 /* discord */ = {isa = PBXFileReference; lastKnownFileType = folder; path = discord; sourceTree = "<group>"; };
+		C0DB21F326A20CC400FB2831 /* aiohttp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = aiohttp; sourceTree = "<group>"; };
+		C0DB21F726A20D2E00FB2831 /* multidict */ = {isa = PBXFileReference; lastKnownFileType = folder; path = multidict; sourceTree = "<group>"; };
+		C0DB21FA26A20DA400FB2831 /* typing_extensions.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = typing_extensions.py; sourceTree = "<group>"; };
+		C0DB21FD26A20DD400FB2831 /* yarl */ = {isa = PBXFileReference; lastKnownFileType = folder; path = yarl; sourceTree = "<group>"; };
+		C0DB220026A20E0200FB2831 /* idna */ = {isa = PBXFileReference; lastKnownFileType = folder; path = idna; sourceTree = "<group>"; };
+		C0DB220326A20E2900FB2831 /* async_timeout */ = {isa = PBXFileReference; lastKnownFileType = folder; path = async_timeout; sourceTree = "<group>"; };
+		C0DB220626A20EED00FB2831 /* chardet */ = {isa = PBXFileReference; lastKnownFileType = folder; path = chardet; sourceTree = "<group>"; };
+		C0DB220926A20F1B00FB2831 /* aiosignal */ = {isa = PBXFileReference; lastKnownFileType = folder; path = aiosignal; sourceTree = "<group>"; };
+		C0DB220C26A20F4700FB2831 /* frozenlist */ = {isa = PBXFileReference; lastKnownFileType = folder; path = frozenlist; sourceTree = "<group>"; };
+		C0DB220F26A2364900FB2831 /* GenerateAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateAction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C08FD10426A1F1B600EC7D0A /* Python-iOS in Frameworks */,
+				C08FD0FE26A1F18600EC7D0A /* PythonKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C08FD10026A1F18A00EC7D0A /* PythonKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,8 +86,12 @@
 		C030AD21269F9E7000DEFCA5 = {
 			isa = PBXGroup;
 			children = (
+				C0DB21F626A20D1D00FB2831 /* PythonLibraries */,
+				C08FD10C26A1F9B500EC7D0A /* iDiscordPY.entitlements */,
+				C08FD0DD26A1E8C000EC7D0A /* Packages */,
 				C030AD26269F9E7000DEFCA5 /* Shared */,
 				C030AD2F269F9E7200DEFCA5 /* Products */,
+				C08FD0DA26A1E83800EC7D0A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +101,7 @@
 				C030AD27269F9E7000DEFCA5 /* iDiscordPYApp.swift */,
 				C030AD28269F9E7000DEFCA5 /* ContentView.swift */,
 				C030AD29269F9E7200DEFCA5 /* Assets.xcassets */,
+				C0DB220F26A2364900FB2831 /* GenerateAction.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -66,6 +113,39 @@
 				C030AD34269F9E7200DEFCA5 /* iDiscordPY.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C08FD0DA26A1E83800EC7D0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C08FD0DD26A1E8C000EC7D0A /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				C08FD0F826A1F08900EC7D0A /* Python-iOS-kivy-ios */,
+				C08FD0FC26A1F17F00EC7D0A /* PythonKit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		C0DB21F626A20D1D00FB2831 /* PythonLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				C0DB220C26A20F4700FB2831 /* frozenlist */,
+				C0DB220926A20F1B00FB2831 /* aiosignal */,
+				C0DB220626A20EED00FB2831 /* chardet */,
+				C0DB220326A20E2900FB2831 /* async_timeout */,
+				C0DB220026A20E0200FB2831 /* idna */,
+				C0DB21FD26A20DD400FB2831 /* yarl */,
+				C0DB21FA26A20DA400FB2831 /* typing_extensions.py */,
+				C0DB21F726A20D2E00FB2831 /* multidict */,
+				C0DB21F026A209B800FB2831 /* discord */,
+				C0DB21F326A20CC400FB2831 /* aiohttp */,
+			);
+			path = PythonLibraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +164,10 @@
 			dependencies = (
 			);
 			name = "iDiscordPY (iOS)";
+			packageProductDependencies = (
+				C08FD0FD26A1F18600EC7D0A /* PythonKit */,
+				C08FD10326A1F1B600EC7D0A /* Python-iOS */,
+			);
 			productName = "iDiscordPY (iOS)";
 			productReference = C030AD2E269F9E7200DEFCA5 /* iDiscordPY.app */;
 			productType = "com.apple.product-type.application";
@@ -101,6 +185,9 @@
 			dependencies = (
 			);
 			name = "iDiscordPY (macOS)";
+			packageProductDependencies = (
+				C08FD0FF26A1F18A00EC7D0A /* PythonKit */,
+			);
 			productName = "iDiscordPY (macOS)";
 			productReference = C030AD34269F9E7200DEFCA5 /* iDiscordPY.app */;
 			productType = "com.apple.product-type.application";
@@ -132,6 +219,8 @@
 				Base,
 			);
 			mainGroup = C030AD21269F9E7000DEFCA5;
+			packageReferences = (
+			);
 			productRefGroup = C030AD2F269F9E7200DEFCA5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -147,7 +236,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0DB220726A20EED00FB2831 /* chardet in Resources */,
+				C0DB21FE26A20DD400FB2831 /* yarl in Resources */,
+				C0DB220426A20E2900FB2831 /* async_timeout in Resources */,
+				C0DB220D26A20F4700FB2831 /* frozenlist in Resources */,
+				C0DB21FB26A20DA400FB2831 /* typing_extensions.py in Resources */,
+				C0DB220126A20E0200FB2831 /* idna in Resources */,
+				C0DB21F826A20D2E00FB2831 /* multidict in Resources */,
+				C0DB21F426A20CC400FB2831 /* aiohttp in Resources */,
 				C030AD39269F9E7200DEFCA5 /* Assets.xcassets in Resources */,
+				C0DB220A26A20F1B00FB2831 /* aiosignal in Resources */,
+				C0DB21F126A209B800FB2831 /* discord in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +254,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0DB220826A20EED00FB2831 /* chardet in Resources */,
+				C0DB21FF26A20DD400FB2831 /* yarl in Resources */,
+				C0DB220526A20E2900FB2831 /* async_timeout in Resources */,
+				C0DB220E26A20F4700FB2831 /* frozenlist in Resources */,
+				C0DB21FC26A20DA400FB2831 /* typing_extensions.py in Resources */,
+				C0DB220226A20E0200FB2831 /* idna in Resources */,
+				C0DB21F926A20D2E00FB2831 /* multidict in Resources */,
+				C0DB21F526A20CC400FB2831 /* aiohttp in Resources */,
 				C030AD3A269F9E7200DEFCA5 /* Assets.xcassets in Resources */,
+				C0DB220B26A20F1B00FB2831 /* aiosignal in Resources */,
+				C0DB21F226A209B800FB2831 /* discord in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C030AD37269F9E7200DEFCA5 /* ContentView.swift in Sources */,
+				C0DB221026A2364900FB2831 /* GenerateAction.swift in Sources */,
 				C030AD35269F9E7200DEFCA5 /* iDiscordPYApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C030AD38269F9E7200DEFCA5 /* ContentView.swift in Sources */,
+				C0DB221126A2364900FB2831 /* GenerateAction.swift in Sources */,
 				C030AD36269F9E7200DEFCA5 /* iDiscordPYApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +471,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iDiscordPY.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -389,6 +502,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iDiscordPY.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -444,6 +559,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C08FD0FD26A1F18600EC7D0A /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PythonKit;
+		};
+		C08FD0FF26A1F18A00EC7D0A /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PythonKit;
+		};
+		C08FD10326A1F1B600EC7D0A /* Python-iOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "Python-iOS";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C030AD22269F9E7000DEFCA5 /* Project object */;
 }
